@@ -24,7 +24,7 @@ Bu sistem, site/apartman yöneticilerinin aidat takibini kolaylaştırmak için 
 
 1. Repoyu klonlayın:
 bash
-git clone https://github.com/kullaniciadi/aidat-takip.git
+git clone https://github.com/fego12/Bina_Aidat_Takip_Sistemi.git
 
 2. Veritabanını oluşturun:
 
@@ -44,6 +44,13 @@ define('DB_NAME', 'aidat_takip');
 bash
 php install/setup.php
 
+Kurulum tamamlandıktan sonra güvenlik için setup.php dosyasını silin.
+
+Varsayılan Admin Bilgileri:
+Kullanıcı adı: admin
+Şifre: admin123
+E-posta: admin@example.com
+Bu kurulum dosyası, sisteminiz için gerekli tüm tabloları oluşturacak ve başlangıç verilerini ekleyecektir. Kurulum sonrası güvenlik için admin şifresini değiştirmeyi unutmayın.
 
 ## 📋 Gereksinimler
 
