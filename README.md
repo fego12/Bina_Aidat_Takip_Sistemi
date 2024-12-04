@@ -1,4 +1,4 @@
-# Aidat Takip Sistemi (Dues Tracking System)
+# Bina Aidat Takip Sistemi 
 
 Bu sistem, site/apartman yöneticilerinin aidat takibini kolaylaştırmak için geliştirilmiş bir web uygulamasıdır.
 
