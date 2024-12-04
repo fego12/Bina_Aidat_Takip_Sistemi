@@ -1,0 +1,106 @@
+/* Modern Kartlar */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Modern Butonlar */
+.btn {
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #4e73df, #224abe);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(45deg, #e74a3b, #be2617);
+    border: none;
+}
+
+/* Badge Stilleri */
+.badge {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+/* Modern Tablo */
+.table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+.table tr {
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.table tr:hover {
+    transform: scale(1.01);
+}
+
+.table td, .table th {
+    border: none;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.table tr td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.table tr td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Form Elemanları */
+.form-control, .form-select {
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 3px rgba(78,115,223,0.25);
+}
+
+/* İstatistik Kartları */
+.stat-card {
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-card i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    opacity: 0.2;
+}
+
+/* Animasyonlar */
+.animate-fade {
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* Modal Stilleri */
+.modal-content {
+    border: none;
+    border-radius: 15px;
+}
